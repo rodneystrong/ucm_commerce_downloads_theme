@@ -940,3 +940,24 @@ ul.tabs.primary {
 #page .wrap-columns .contextual-links li a:after {
   display: none;
 }
+
+.block-commerce-cart .price {
+  padding-left: 10px;
+}
+
+.view-commerce-cart-block {
+  font-size: 16px;
+}
+
+.view-commerce-cart-block .views-table {
+  width: 100%;
+}
+
+.view-commerce-cart-block .view-footer {
+  padding-top: 25px;
+}
+
+.view-commerce-cart-block table tbody td, .view-commerce-cart-block .view-footer li {
+  padding: 5px 0px;
+  list-style-type: none;
+}
