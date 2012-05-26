@@ -7,6 +7,7 @@ engine                                       = phptemplate
 
 stylesheets[all][]							 = css/main.css
 stylesheets[all][]                           = css/color_module.css
+scripts[]                                    = scripts/jquery.overlabel.js
 
 skinr[api]                                   = 2
 skinr[directory]                             = skins
@@ -183,6 +184,6 @@ settings[sitename_font_face_selector] = '.site-name'
 ; Information added by drupal.org packaging script on 2012-04-16
 version = "7.x-1.3"
 core = "7.x"
-project = "touchpro"
+project = "software channel"
 datestamp = "1334584310"
 
