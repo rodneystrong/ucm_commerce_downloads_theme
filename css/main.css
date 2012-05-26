@@ -961,3 +961,8 @@ ul.tabs.primary {
   padding: 5px 0px;
   list-style-type: none;
 }
+
+.region-content article.node-teaser {
+  float: left;
+  padding: 20px;
+}
