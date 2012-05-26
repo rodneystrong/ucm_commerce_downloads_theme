@@ -317,8 +317,10 @@ h1.page-title {
 }
 
 #page h1.node-title a {
-  padding: 11px 75px 12px 18px;
+  /*padding: 11px 75px 12px 18px;*/  /*commented out to prevent wide titles*/
   min-height: 37px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 ul.primary {
@@ -941,6 +943,14 @@ ul.tabs.primary {
   display: none;
 }
 
+.region-content article.node-teaser {
+  float: left;
+  padding: 0px 20px 20px 20px;
+}
+
+/**
+* [6] SHOPPING CART
+*/
 .block-commerce-cart .price {
   padding-left: 10px;
 }
@@ -960,9 +970,4 @@ ul.tabs.primary {
 .view-commerce-cart-block table tbody td, .view-commerce-cart-block .view-footer li {
   padding: 5px 0px;
   list-style-type: none;
-}
-
-.region-content article.node-teaser {
-  float: left;
-  padding: 20px;
 }
